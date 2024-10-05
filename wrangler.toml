@@ -6,3 +6,7 @@ kv_namespaces = [
   { binding = "NOTES", id = "<NOTES_KV_BINDING_ID>" },
   { binding = "SHARE", id = "<SHARE_KV_BINDING_ID>" }
 ]
+
+# wrangler.toml (wrangler v3.78.6^)
+[observability]
+enabled = true
